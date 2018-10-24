@@ -53,7 +53,8 @@
             </div>
             
         </div>
-    
+    	<img src="psb1.jpg" style="width: 200px;position: absolute;left: 0;top: 300px; display: none;" id="img1"/>
+    	<img src="psb.jpg" style="width: 200px;position: absolute;right: 0;top: 300px; display: none;" id="img2"/>
     <script>
     </script>
 
@@ -180,6 +181,8 @@
                 tree.jump();
                 foot.draw();
                 $await(Jscex.Async.sleep(25));
+                $("#img1").fadeIn(500);
+                $("#img2").fadeIn(500);
             }
         }));
 
