@@ -1,1 +1,127 @@
-123324324234
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>问度系列</title>
+		<link rel="stylesheet" type="text/css" href="css/font_758779_gjixkv3750h/iconfont.css" />
+		<link rel="shortcut icon" href="img/bitbug_favicon.ico" type="image/x-icon" />
+	</head>
+	<style type="text/css">
+		.body {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background: url(img/bjpic1.png) no-repeat;
+			background-size: 100% 100%;
+			-moz-background-size: 100% 100%;
+			-webkit-background-size: 100% 100%;
+		}
+		
+		.circle {
+			width: 150px;
+			height: 150px;
+			margin-left: 100px;
+			background: #203757;
+			border-radius: 50%;
+			float: left;
+			box-shadow: 0px 0px 25px 5px #5fa0ef;
+			animation: fade 3000ms infinite;
+			-webkit-animation: fade 3000ms infinite;
+		}
+		
+		.circle:hover {
+			box-shadow: 0px 0px 25px 5px #00ffff;
+		}
+		
+		.circle:hover .text {
+			color: #00ffff;
+		}
+		
+		.line {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin: -5% 0 0 -35%;
+		}
+		
+		.iconfont {
+			font-size: 90px;
+			display: inline-block;
+			text-align: center;
+			width: 100%;
+			line-height: 150px;
+			color: #bfdcff;
+		}
+		
+		.iconfont:hover {
+			color: #00ffff;
+		}
+		
+		.text {
+			color: white;
+			text-align: center;
+			width: 100%;
+			display: inline-block;
+			margin-top: 27px;
+			font-family: "微软雅黑";
+			font-size: 21px;
+		}
+		
+		@keyframes fade {
+			from {
+				box-shadow: 0px 0px 25px 5px #00ffff;
+			}
+			50%{
+				box-shadow: 0px 0px 25px 0px #00ffff;
+			}
+			to {
+				box-shadow: 0px 0px 25px 5px #00ffff;
+			}
+		}
+		
+		@-webkit-keyframes fade {
+			from {
+				box-shadow: 0px 0px 25px 5px #00ffff;
+			}
+			50%{
+				box-shadow: 0px 0px 25px 0px #00ffff;
+			}
+			to {
+				box-shadow: 0px 0px 25px 5px #00ffff;
+			}
+		}
+	</style>
+
+	<body>
+		<div class="body">
+			<div class="line">
+				<div>
+					<a class="circle" href="http://test.glens.com.cn/ELM" title="漏电感知监测" target="_search">
+						<span class="iconfont icon-loudian-"></span>
+						<span class="text">漏电感知监测</span>
+					</a>
+					<a class="circle" href="http://test.glens.com.cn/BMS" title="蓄电池在线监测" target="_search">
+						<span class="iconfont icon-xudianchi"></span>
+						<span class="text">蓄电池在线监测</span>
+					</a>
+					<a class="circle" href="http://test.glens.com.cn/cbWeb" title="电缆中接头测温" target="_search">
+						<span class="iconfont icon-dianlanziyuan"></span>
+						<span class="text">电缆中接头测温</span>
+					</a>
+					<a class="circle" href="http://test.glens.com.cn/IIM" title="配电房动环监测" target="_search">
+						<span class="iconfont icon-peidianfang"></span>
+						<span class="text">配电房动环监测</span>
+					</a>
+					<a class="circle" href="javascript:" title="输电接头测温" target="_search">
+						<span class="iconfont icon-shudian"></span>
+						<span class="text">输电接头测温</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
